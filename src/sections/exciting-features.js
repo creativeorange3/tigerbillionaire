@@ -3,32 +3,32 @@
 import { jsx, Box, Container, Image } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
-import feature from 'assets/images/tigercoin.jpg';
+import feature from 'assets/images/gentleman.png';
 import emoji from 'assets/images/icons/emoji-2.png';
 
 const data = [
   {
-    title: 'Phase 1',
+    title: 'Staeg 1',
     contents: (
       <div>
-        Tiger Billionaire launch <br />
-        Tiger Billionaire website <br />
-        Telegram creation <br />
-        Various telegram calls <br />
-        Organic Growth
+        Spooderman Lunch <br />
+        Bilding Comnunity  <br />
+        Kall channelz (not Lemon)  <br />
+        4chan posts und ads <br />
+        Reditt potst <br />
+        Shitling und meme consents
       </div>
     ),
   },
   {
-    title: 'Phase 2',
+    title: 'Staeg 2',
     contents: (
       <div>
-        CMC & CG Listing
+        Coinhanter and simliar sites linstings
         <br />
-        Update on Decentralized exchange
+        Tiktak ads und shitling
         <br />
-        Audit <br />
-        2nd Round of Marketing push <br />
+        Hard makreting push <br />
       </div>
     ),
   },
@@ -36,11 +36,11 @@ const data = [
     title: `Phase 3`,
     contents: (
       <div>
-        NFT Release
+        Cemce und Cege Listings
         <br />
-        Various Partnerships        <br />
-        Merchandise store <br />
-        Various Partnerships<br />
+        Spešial NFTZ     <br />
+        Boksing fight wid Dolan <br />
+        ETH brigde<br />
       </div>
     ),
   },
@@ -57,8 +57,8 @@ const ExcitingFeatures = () => {
           <Box sx={styles.rightContent}>
             <SectionHeading
               sx={styles.heading}
-              title="We're on a mission to create a big roar in BSC Space"
-              description="Take a look at our roudmap and don't miss this x1000 gem!"
+              title="Briging teh good ol meme to lief"
+              description="Dont miss dis x69420 gem!"
             />
             <Box sx={styles.accordionGroup}>
               <Accordion items={data} />
@@ -74,6 +74,7 @@ export default ExcitingFeatures;
 
 const styles = {
   contentWrapper: {
+    fontWeight: 'bold',
     // gap: [0, 0, 0, 0, 10, 100],
     display: ['block', 'block', 'grid', 'flex', 'grid'],
     gridTemplateColumns: '1fr 1fr',
@@ -82,12 +83,14 @@ const styles = {
     paddingBottom: [0, 0, 0, 0, '50px']
   },
   illustration: {
+    fontWeight: 'bold',
     display: ['none', 'none', 'block'],
     img: {
       maxWidth: '500px'
     }
   },
   heading: {
+    fontWeight: 'bold',
     maxWidth: [295, 295, 495, 495, 410, 500],
     textAlign: ['center', null, null, null, 'left'],
     mb: [30],
@@ -103,6 +106,7 @@ const styles = {
     },
   },
   accordionGroup: {
+    fontWeight: 'bold',
     maxWidth: ['none', null, null, 600, 'none'],
     '.accordion-item': {
       backgroundColor: '#F6F8FB',

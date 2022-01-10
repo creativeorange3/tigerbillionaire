@@ -3,34 +3,34 @@
 import { jsx, Box, Flex, Container, Image, Text } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
-import tigerfeature from 'assets/images/tigerpurple.jpg';
+import spooderman from 'assets/images/fatspooder.png';
 import emoji from 'assets/images/icons/emoji.png';
 import check from 'assets/images/icons/check-circle.png';
 
 const data = [
   {
     id: 1,
-    label: 'Safe & Verified Contract',
+    label: 'Verifid Contaract',
   },
   {
     id: 2,
-    label: 'Liquidity Locked',
+    label: 'Lp loked',
   },
   {
     id: 3,
-    label: '50% of tokens burnt',
+    label: 'Amazng Spoodarman comnunity',
   },
   {
     id: 4,
-    label: 'Anti-Whale features',
+    label: '3chan posts und ads',
   },
   {
     id: 5,
-    label: '1,000,000,000 supply',
+    label: 'Ril mem koin, not liek Dolan',
   },
   {
     id: 6,
-    label: 'No presale',
+    label: 'Meme consents',
   },
 ];
 
@@ -42,7 +42,7 @@ const WorkHard = () => {
           <Box sx={styles.rightContent}>
             <SectionHeading
               sx={styles.heading}
-              title="Cleanest contract and measures to ensure high quality launch"
+              title="No Wai Hoem"
               description=""
             />
             <Box sx={styles.features}>
@@ -55,7 +55,7 @@ const WorkHard = () => {
             </Box>
           </Box>
           <Box sx={styles.illustration}>
-            <Image src={tigerfeature} alt="Feature tiger" />
+            <Image src={spooderman} alt="Feature Spooderman" />
           </Box>
         </Box>
       </Container>
@@ -95,6 +95,7 @@ const styles = {
   features: {
     columnCount: [1, 2],
     lineHeight: 2.81,
+    fontWeight: 'bold',
     ml: ['20px', 0],
     img: {
       mr: '10px',
@@ -117,7 +118,7 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     img: {
-      maxWidth: ['100%', null, null, '80%', '100%'],
+      maxWidth: ['60%', null, null, '60%', '60%'],
     },
   },
 };

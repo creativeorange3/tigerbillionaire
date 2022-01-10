@@ -4,27 +4,27 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 
-import individual from 'assets/images/icons/5.png';
-import team from 'assets/images/icons/2.png';
-import org from 'assets/images/icons/6.png';
+import individual from 'assets/images/tokenomics.png';
+import team from 'assets/images/tokenomics.png';
+import org from 'assets/images/tokenomics.png';
 
 const data = [
   {
     id: 1,
     icon: individual,
-    title: '6% Marketing Fee',
+    title: '8% Mrketing Fee',
     description: ``,
   },
   {
     id: 2,
     icon: team,
-    title: '6% Liquidity Fee',
+    title: '2% Lqidity Fee',
     description: ``,
   },
   {
     id: 3,
     icon: org,
-    title: '0% Dev Wallet!',
+    title: '3% for spooderman',
     description: ``,
   },
 ];
@@ -35,8 +35,8 @@ const Services = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Tokenomics"
-          description="14% buy and sell"
+          title="Tokonomiks"
+          description="13% buy and sell (ken change)"
         />
         <Box sx={styles.features}>
           {data?.map((item) => (
@@ -59,6 +59,7 @@ const styles = {
       fontSize: ['28px', '32px', '32px', '32px', '32px', '32px', '40px'],
     },
     P: {
+      fontWeight: 'bold',
       fontSize: ['16px', '16px', '16px', '16px', '14px', '16px'],
       maxWidth: [510],
       m: ['0 auto 0'],
@@ -75,7 +76,7 @@ const styles = {
       'repeat(3, 1fr)',
     ],
     '.feature-item': {
-      display: ['block', 'block', 'flex', 'flex', 'block', 'flex'],
+      display: ['flex', 'block', 'flex', 'flex', 'block', 'flex'],
       textAlign: ['center', 'center', 'left', 'left', 'center', 'left'],
       maxWidth: [290, 260, 'none'],
       m: ['0 auto', '0 auto', 0],

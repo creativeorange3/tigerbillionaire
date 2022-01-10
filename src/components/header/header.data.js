@@ -5,14 +5,14 @@ export default [
   },
   {
     path: 'tokenomics',
-    label: 'Tokenomics',
+    label: 'Tokonomiks',
   },
   {
     path: 'features',
-    label: 'Features',
+    label: 'Fitures',
   },
   {
     path: 'roadmap',
-    label: 'Roadmap',
+    label: 'Rodmap',
   }
 ];

@@ -17,8 +17,8 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Tiger Billionaire"
-          description="Next x1000 gem!"
+          title="Spooderman"
+          description="Teh amazing spooder!"
         />
         <Banner />
         <Services />

@@ -76,8 +76,8 @@ const NewsletterForm = ({ status, message, onValidated }) => {
             <div style={{ display: "flex", width: "100%", flexDirection: 'column', alignItems: 'center' }}>
                 <div style={{ display: 'flex', width: '100%', justifyContent: 'space-around' }}>
                 <a href="https://pancakeswap.finance/swap" target={"_blank"}><Image src={pancake} alt="pancakeswap" style={{width: '40px'}} /></a>
-                <a target={"_blank"} href="https://poocoin.app/tokens/0x5be5dcea4cd889ef0129ee19a5fbef679f283ddf"><Image src={poocoin} alt="pancakeswap" style={{width: '40px'}} href="https://poocoin.app/tokens/0x5be5dcea4cd889ef0129ee19a5fbef679f283ddf"/></a>
-                <a href="https://t.me/TigerBillionaireOfficial" target={"_blank"}><Image  src={telegram} alt="telegram" style={{width: '50px'}} /></a>
+                <a target={"_blank"} href="https://poocoin.app/"><Image src={poocoin} alt="pancakeswap" style={{width: '40px'}} href="https://poocoin.app/"/></a>
+                <a href="https://t.me/spoodermanbsc" target={"_blank"}><Image  src={telegram} alt="telegram" style={{width: '50px'}} /></a>
                 </div>
             </div>
             <div className="newsletter-form-info" style={{ paddingTop: "20px" }}>

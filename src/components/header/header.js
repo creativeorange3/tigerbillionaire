@@ -20,17 +20,17 @@ export default function Header() {
                 <Flex as="nav" sx={styles.navbar} className="navbar">
                   <Box as="ul" sx={styles.navList}>
                     {menuItems.map(({ path, label }, i) => (
-                      <li key={i}>
+                      <li key={i} style={{fontWeight: 'bolder'}}>
                         <NavLink path={path} label={label} />
                       </li>
                     ))}
                   </Box>
                   <Button variant="text" sx={styles.getStartedDesktop}>
-                    <a sx={styles.link} href="https://poocoin.app/tokens/0x5be5dcea4cd889ef0129ee19a5fbef679f283ddf" target={'_blank'}>Buy on Poocoin</a>
+                    <a sx={styles.link} href="https://poocoin.app/" target={'_blank'}>By on Pookoin</a>
                   </Button>
                 </Flex>
                 <Button variant="text" sx={styles.getStartedMobile}>
-                    <a sx={styles.link} href="https://poocoin.app/tokens/0x5be5dcea4cd889ef0129ee19a5fbef679f283ddf" target={'_blank'}>Buy on Poocoin</a>
+                    <a sx={styles.link} href="https://poocoin.app/" target={'_blank'}>By on Pookoin</a>
                 </Button>
                 <DrawerNav />
               </Box>
@@ -44,11 +44,13 @@ export default function Header() {
 
 const styles = {
   link: {
+    fontWeight: 'bold',
     textDecoration: 'none',
     color: 'inherit'
   },
   headerWrapper: {
     header: {
+      fontWeight: 'bold',
       position: 'fixed',
       left: 0,
       right: 0,
@@ -60,6 +62,7 @@ const styles = {
     },
     '.is-sticky': {
       header: {
+        fontWeight: 'bold',
         backgroundColor: 'white',
         boxShadow: '0 6px 13px rgba(38,78,118,0.1)',
         py: 13,
@@ -69,6 +72,7 @@ const styles = {
   headerInner: {
     display: 'flex',
     alignItems: 'center',
+    fontWeight: 'bold',
     justifyContent: 'space-between',
     '@media only screen and (max-width: 768px)': {
       '.navbar': {
@@ -104,10 +108,12 @@ const styles = {
     mr: [null, null, null, null, 50],
   },
   navbar: {
+    fontWeight: 'bold',
     alignItems: 'center',
     flexGrow: 1,
   },
   navList: {
+    fontWeight: 'bold',
     display: ['flex'],
     listStyle: 'none',
     flexGrow: 1,
@@ -124,10 +130,12 @@ const styles = {
   },
   getStartedDesktop: {
     color: 'primary',
+    fontWeight: 'bold',
     display: ['flex', null, null, null, 'flex'],
   },
   getStartedMobile: {
-    color: '#F94962',
+    fontWeight: 'bold',
+    color: '#FF0000',
     fontSize: [12, null, null, 16],
     minHeight: 30,
     m: ['0 15px 0 auto'],

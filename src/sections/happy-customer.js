@@ -3,7 +3,6 @@
 import { jsx, Box, Container, Image } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
-import customer from 'assets/images/customer.png';
 import emoji from 'assets/images/icons/emoji-3.png';
 
 const HappyCustomer = () => {
@@ -11,9 +10,6 @@ const HappyCustomer = () => {
     <Box as="section" variant="section.happyCustomer">
       <Container>
         <Box sx={styles.contentWrapper}>
-          <Box sx={styles.leftContent}>
-            <Image src={customer} alt="feature" />
-          </Box>
           <Box sx={styles.rightContent}>
             <SectionHeading
               emoji={emoji}

@@ -2,12 +2,12 @@
 /** @jsx jsx */
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
-import banner from 'assets/images/logo.jpg';
+import banner from 'assets/images/logo.png';
 
 export default function Logo({ isSticky, footer, ...props }) {
   return (
     <Link path="/" sx={styles.logo} {...props}>
-      <Image src={banner} alt="Tiger Billionaire" style={{width: '50px'}} />
+      <Image src={banner} alt="Spooderman" style={{width: '50px'}} />
 
     </Link>
   );

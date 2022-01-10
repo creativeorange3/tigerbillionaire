@@ -26,8 +26,8 @@ const SubscribeUs = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Don't miss this gem!"
-            description="Buy a bag and join us in our telegram"
+            title="Whale cum to spooderman"
+            description="Dolan got nuting on us"
           />
           <Box as="form" sx={styles.subscribe} onSubmit={handleSubmit}>
             <Flex sx={styles.formGroup}>

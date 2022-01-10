@@ -10,15 +10,8 @@ import {
   Image,
   Button,
 } from 'theme-ui';
-import Input from 'components/input';
-import banner from 'assets/images/banner4.png';
-import paypal from 'assets/images/paypal.png';
-import google from 'assets/images/google.png';
-import logo from 'assets/images/logo.jpg'
-
-import dropbox from 'assets/images/dropbox.png';
+import logo from 'assets/images/logo.png'
 import { rgba } from 'polished';
-import VideoPlayer from './VideoPlayer';
 import NewsletterSubscribe from './NewsletterSubscribe';
 
 const Banner = () => {
@@ -27,35 +20,18 @@ const Banner = () => {
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
-            <Heading as="h1">
-              <b>Tiger Billionaire</b>
-            </Heading>
-            <Text as="p">
-              2022 is the year of the tiger! Here at <b>Tiger Billionaire</b> , 
-              we aim to be this year most anticipated community token 
-              that will appreciate over time for our holders. 
-              Together, we will push our goals one by one following our roadmap.
+            {/* <Heading as="h1">
+              <b>SPOODERMAN</b>
+            </Heading> */}
+            <Text as="p" style={{fontWeight: 'bold', fontSize: '24px'}}>
+              Teh amaizng spooderman comez to teh bince smert chan<br/>dolan y u do dis
             </Text>
             <Box sx={styles.subscribe}>
               <NewsletterSubscribe />
             </Box>
-            {/* <Box sx={styles.sponsoredBy}>
-              <Text as="span">Sponsored by:</Text>
-              <Box sx={styles.logos}>
-                <Box as="figure" sx={{ display: 'flex' }}>
-                  <Image src={paypal} alt="paypal" />
-                </Box>
-                <Box as="figure" sx={{ display: 'flex' }}>
-                  <Image src={google} alt="google" />
-                </Box>
-                <Box as="figure" sx={{ display: 'flex' }}>
-                  <Image src={dropbox} alt="dropbox" />
-                </Box>
-              </Box>
-            </Box> */}
           </Box>
           <Box as="figure" sx={styles.illustration} style={{ borderRadius: "30px" }}>
-          <Image src={logo} style={{width: '70%'}}alt="Tiger Billionaire" />
+          <Image src={logo} style={{width: '70%'}}alt="Spooderman" />
           </Box>
         </Box>
       </Container>
@@ -81,7 +57,7 @@ const styles = {
     textAlign: [null, null, null, 'center', 'left'],
     h1: {
       color: 'textSecondary',
-      fontFamily: 'Crimson Text, Serif',
+      fontFamily: 'Nothing You Could Do, Serif',
       fontWeight: 600,
       fontSize: ['34px', '34px', '34px', '44px', '40px', '49px', '62px'],
       lineHeight: [1.26, 1.26, 1.11, 1.4, 1.11],

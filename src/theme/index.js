@@ -1,4 +1,5 @@
 export default {
+  
   // example colors with dark mode
   colors: {
     text: '#343D48', // body color and primary color
@@ -8,7 +9,7 @@ export default {
     background: '#FFFFFF', // body background color
     backgroundSecondary: '#F9FBFD', // secondary background color
     borderColor: '#F3F4F5', // border color
-    primary: '#DC783D', // primary button and link color
+    primary: '#FF0000', // primary button and link color
     secondary: '#FFF', // secondary color - can be used for hover states
     muted: '#7B8188', // muted color
     accent: '#609', // a contrast color for emphasizing UI
@@ -27,12 +28,12 @@ export default {
     },
   },
   fonts: {
-    body: 'DM Sans',
+    body: 'Nothing You Could Do',
     // body:
     //   'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
-    heading: 'DM Sans',
-    headingSerif: `Crimson Text`,
-    monospace: 'Menlo, monospace',
+    heading: 'Nothing You Could Do',
+    headingSerif: `Nothing You Could Do`,
+    monospace: 'Nothing You Could Do',
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
   fontWeights: {
